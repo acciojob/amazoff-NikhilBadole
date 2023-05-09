@@ -8,8 +8,7 @@ import java.util.*;
 @Service
 
 public class OrderService {
-    @Autowired
-    OrderRepository orderRepository;
+    OrderRepository orderRepository = new OrderRepository();
 
 
 
